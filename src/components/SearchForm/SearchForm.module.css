@@ -23,3 +23,32 @@
     grid-template-columns: repeat(3, auto);
 }
 
+@media screen and (max-width: 375px) {
+    .card   {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .card   {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .card   {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    .card   {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    
+}

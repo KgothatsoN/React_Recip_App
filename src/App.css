@@ -4,12 +4,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-size: auto 100%;
 }
 
 body    {
+    
     display: grid;
     justify-content: center;
     align-items: center;
-    background: rgb(195,34,189);
-    background: linear-gradient(90deg, rgba(195,34,189,1) 0%, rgba(253,198,45,1) 100%);
+    background-color: #64e5ff;
 }
