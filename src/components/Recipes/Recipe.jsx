@@ -10,7 +10,7 @@ const Recipe = ({title, calories, image, ingredients}) =>   {
                     {ingredients.map(ingredient => (<li key={Math.random(calories)}>{ingredient.text}</li>))}
                 </ul>
                 <p className={CSS.calories}>Calories: {calories}</p>
-                <img src={image} alt="image" className={CSS.image} />
+                <img src={image} className={CSS.image} />
             </div>
         </div>
         
