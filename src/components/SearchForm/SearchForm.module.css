@@ -25,16 +25,16 @@
 
 @media screen and (max-width: 375px) {
     .card   {
-        display: grid;
-        grid-template-columns: repeat(1, auto);
+        display: grid important;
+        grid-template-columns: repeat(1, auto) !important;
     }
     
 }
 
 @media screen and (max-width: 425px) {
     .card   {
-        display: grid;
-        grid-template-columns: repeat(1, auto);
+        display: grid important;
+        grid-template-columns: repeat(1, auto) !important;
     }
     
 }
